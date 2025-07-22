@@ -14,6 +14,7 @@ jobs:
         component:
           - backend
           - frontend
+          - nginx-demo
     runs-on: ubuntu-latest
     permissions:
       contents: read
