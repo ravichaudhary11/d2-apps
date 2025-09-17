@@ -1,0 +1,9 @@
+apiVersion: source.toolkit.fluxcd.io/v1beta2
+kind: OCIRepository
+metadata:
+  name: nginxinfo-manifest
+spec:
+  interval: 5m
+  url: oci://ghcr.io/ravichaudhary11/fluxxd2-test/nginx
+  ref:
+    tag: latest
